@@ -1,0 +1,33 @@
+p
+{
+  margin: 0px;
+  padding: 5px 0px;
+}
+
+.flexbox
+{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgba(128, 128, 128, 0.47);
+}
+
+.row
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#number
+{
+  color: white;
+  background: blue;
+  margin: 5px;
+  padding: 2px 10px;
+  border-radius: 15px;
+}

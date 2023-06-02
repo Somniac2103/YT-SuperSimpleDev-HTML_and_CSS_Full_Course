@@ -1,0 +1,15 @@
+.Grid
+{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.blue
+  {
+    background-color: blue;
+  }
+
+.red
+  {
+    background-color: red;
+  }

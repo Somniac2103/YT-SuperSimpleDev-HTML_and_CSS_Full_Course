@@ -1,0 +1,19 @@
+div
+{
+  border: solid;
+  padding: 10px;
+  border-width: 2px;
+  border-color: rgba(128, 128, 128, 0.263);
+}
+
+p
+{
+  margin: 0px 0px 15px;
+  font-size: 14px;
+}
+
+button
+{
+  font-size: 12px;
+
+}

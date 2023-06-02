@@ -1,0 +1,76 @@
+.grid
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  align-items: center;
+}
+.card
+{
+  padding: 0px 0px 15px 0px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  min-height: 300px;
+  max-width: 200px;
+  vertical-align: top
+}
+
+img
+{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 10px;
+}
+
+#name
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+#friends
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 5px;
+  display: inline-block;
+}
+button
+{
+  color: white;
+  background-color: rgb(24, 119, 242);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.favicon
+
+{
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 5px 5px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.friends-row
+{
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+
+}

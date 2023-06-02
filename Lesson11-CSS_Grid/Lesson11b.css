@@ -1,0 +1,15 @@
+.grid
+{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+#one,#three
+{
+  background-color: blue;
+}
+
+#two
+{
+  background-color: red;
+}

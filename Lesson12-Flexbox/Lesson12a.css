@@ -1,0 +1,18 @@
+#flexbox
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#blue
+{
+  width: 200px;
+  background-color: blue;
+}
+
+#red
+{
+  width: 75px;
+  background-color: red;
+}

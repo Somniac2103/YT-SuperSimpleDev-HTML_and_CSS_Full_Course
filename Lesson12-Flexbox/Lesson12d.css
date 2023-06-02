@@ -1,0 +1,14 @@
+.flexbox
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid;
+  border-width: 1px;
+  padding: 15px 0px;
+}
+
+#red
+{
+  background-color: red;
+}

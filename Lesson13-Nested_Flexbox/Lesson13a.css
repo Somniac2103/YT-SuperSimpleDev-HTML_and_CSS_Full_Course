@@ -1,0 +1,28 @@
+.Flexbox
+{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.section1
+{
+  background-color: red;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2
+{
+  background-color: blue;
+  width: 200px;
+}
+
+.object
+{
+  color: white;
+  background-color: black;
+}

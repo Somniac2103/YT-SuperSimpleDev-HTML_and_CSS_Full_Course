@@ -1,0 +1,24 @@
+.flexbox
+{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.one
+{
+  width: 50px;
+  background-color: blue;
+}
+
+.two
+{
+  flex: 1;
+  background-color: red;
+}
+
+.three
+{
+  width: 75px;
+  background-color: blue;
+}
